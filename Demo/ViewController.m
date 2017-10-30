@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     float width = self.view.frame.size.width / 3.0f;
     for (int i = 0; i < 3; i++) {
         UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(width * i, 200, width, 100)];
